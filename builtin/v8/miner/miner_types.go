@@ -1,15 +1,15 @@
 package miner
 
 import (
-	addr "github.com/filecoin-project/go-address"
 	"github.com/filecoin-project/go-bitfield"
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/builtin"
-	"github.com/filecoin-project/go-state-types/builtin/v8/power"
-	"github.com/filecoin-project/go-state-types/builtin/v8/util/adt"
-	xc "github.com/filecoin-project/go-state-types/exitcode"
-	"github.com/filecoin-project/go-state-types/proof"
 	"github.com/ipfs/go-cid"
+	addr "github.com/jimpick/go-address"
+	"github.com/jimpick/go-state-types/abi"
+	"github.com/jimpick/go-state-types/builtin"
+	"github.com/jimpick/go-state-types/builtin/v8/power"
+	"github.com/jimpick/go-state-types/builtin/v8/util/adt"
+	xc "github.com/jimpick/go-state-types/exitcode"
+	"github.com/jimpick/go-state-types/proof"
 	"golang.org/x/xerrors"
 )
 

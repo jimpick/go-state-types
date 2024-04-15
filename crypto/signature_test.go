@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/require"
 	cbg "github.com/whyrusleeping/cbor-gen"
 
-	"github.com/filecoin-project/go-state-types/crypto"
+	"github.com/jimpick/go-state-types/crypto"
 )
 
 func TestEquality(t *testing.T) {

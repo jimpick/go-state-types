@@ -1,8 +1,8 @@
 package power
 
 import (
-	addr "github.com/filecoin-project/go-address"
-	"github.com/filecoin-project/go-state-types/abi"
+	addr "github.com/jimpick/go-address"
+	"github.com/jimpick/go-state-types/abi"
 )
 
 // Storage miner actor constructor params are defined here so the power actor can send them to the init actor

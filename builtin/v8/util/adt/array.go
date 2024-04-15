@@ -5,8 +5,8 @@ import (
 
 	amt "github.com/filecoin-project/go-amt-ipld/v4"
 
-	"github.com/filecoin-project/go-state-types/cbor"
 	cid "github.com/ipfs/go-cid"
+	"github.com/jimpick/go-state-types/cbor"
 	cbg "github.com/whyrusleeping/cbor-gen"
 	"golang.org/x/xerrors"
 )
@@ -125,7 +125,8 @@ func (a *Array) Length() uint64 {
 }
 
 // Get retrieves array element into the 'out' unmarshaler, returning a boolean
-//  indicating whether the element was found in the array
+//
+//	indicating whether the element was found in the array
 func (a *Array) Get(k uint64, out cbor.Unmarshaler) (bool, error) {
 	if found, err := a.root.Get(a.store.Context(), k, out); err != nil {
 		return false, xerrors.Errorf("failed to get index %v in root %v: %w", k, a.root, err)

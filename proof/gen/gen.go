@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/filecoin-project/go-state-types/proof"
+	"github.com/jimpick/go-state-types/proof"
 	gen "github.com/whyrusleeping/cbor-gen"
 )
 

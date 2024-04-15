@@ -5,9 +5,9 @@ import (
 	"crypto/sha256"
 
 	hamt "github.com/filecoin-project/go-hamt-ipld/v3"
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/cbor"
 	cid "github.com/ipfs/go-cid"
+	"github.com/jimpick/go-state-types/abi"
+	"github.com/jimpick/go-state-types/cbor"
 	cbg "github.com/whyrusleeping/cbor-gen"
 	"golang.org/x/xerrors"
 )

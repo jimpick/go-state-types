@@ -1,8 +1,8 @@
 package proof
 
 import (
-	"github.com/filecoin-project/go-state-types/abi"
 	"github.com/ipfs/go-cid"
+	"github.com/jimpick/go-state-types/abi"
 )
 
 type PoStProof struct {

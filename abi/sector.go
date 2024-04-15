@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/filecoin-project/go-state-types/big"
+	"github.com/jimpick/go-state-types/big"
 )
 
 // SectorNumber is a numeric identifier for a sector. It is usually relative to a miner.
@@ -23,15 +23,16 @@ const MaxSectorNumber = math.MaxInt64
 
 // SectorSize indicates one of a set of possible sizes in the network.
 // Ideally, SectorSize would be an enum
-// type SectorSize enum {
-//   1KiB = 1024
-//   1MiB = 1048576
-//   1GiB = 1073741824
-//   1TiB = 1099511627776
-//   1PiB = 1125899906842624
-//   1EiB = 1152921504606846976
-//   max  = 18446744073709551615
-// }
+//
+//	type SectorSize enum {
+//	  1KiB = 1024
+//	  1MiB = 1048576
+//	  1GiB = 1073741824
+//	  1TiB = 1099511627776
+//	  1PiB = 1125899906842624
+//	  1EiB = 1152921504606846976
+//	  max  = 18446744073709551615
+//	}
 type SectorSize uint64
 
 // Formats the size as a decimal string.

@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/filecoin-project/go-address"
 	"github.com/ipfs/go-cid"
+	"github.com/jimpick/go-address"
 )
 
 // Keyer defines an interface required to put values in mapping.
@@ -23,7 +23,7 @@ func (k AddrKey) Key() string {
 
 // Adapts an address tuple as a mapping key.
 type AddrPairKey struct {
-	First address.Address
+	First  address.Address
 	Second address.Address
 }
 
@@ -33,8 +33,8 @@ func (k *AddrPairKey) Key() string {
 	return buf.String()
 }
 
-func NewAddrPairKey(first address.Address, second address.Address) *AddrPairKey{
-	return  &AddrPairKey{
+func NewAddrPairKey(first address.Address, second address.Address) *AddrPairKey {
+	return &AddrPairKey{
 		First:  first,
 		Second: second,
 	}
@@ -51,7 +51,7 @@ type intKey struct {
 	int64
 }
 
-//noinspection GoExportedFuncWithUnexportedType
+// noinspection GoExportedFuncWithUnexportedType
 func IntKey(k int64) intKey {
 	return intKey{k}
 }
@@ -62,7 +62,7 @@ func (k intKey) Key() string {
 	return string(buf[:n])
 }
 
-//noinspection GoUnusedExportedFunction
+// noinspection GoUnusedExportedFunction
 func ParseIntKey(k string) (int64, error) {
 	i, n := binary.Varint([]byte(k))
 	if n != len(k) {
@@ -76,7 +76,7 @@ type uintKey struct {
 	uint64
 }
 
-//noinspection GoExportedFuncWithUnexportedType
+// noinspection GoExportedFuncWithUnexportedType
 func UIntKey(k uint64) uintKey {
 	return uintKey{k}
 }

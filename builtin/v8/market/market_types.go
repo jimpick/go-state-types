@@ -1,9 +1,9 @@
 package market
 
 import (
-	addr "github.com/filecoin-project/go-address"
 	"github.com/filecoin-project/go-bitfield"
-	"github.com/filecoin-project/go-state-types/abi"
+	addr "github.com/jimpick/go-address"
+	"github.com/jimpick/go-state-types/abi"
 	cbg "github.com/whyrusleeping/cbor-gen"
 )
 

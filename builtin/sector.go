@@ -1,7 +1,7 @@
 package builtin
 
 import (
-	stabi "github.com/filecoin-project/go-state-types/abi"
+	stabi "github.com/jimpick/go-state-types/abi"
 	"golang.org/x/xerrors"
 )
 
@@ -11,7 +11,8 @@ type SealProofPolicy struct {
 }
 
 // For V1 Stacked DRG sectors, the max is 540 days since Network Version 11
-// 	according to https://github.com/filecoin-project/FIPs/blob/master/FIPS/fip-0014.md
+//
+//	according to https://github.com/filecoin-project/FIPs/blob/master/FIPS/fip-0014.md
 const EpochsIn540Days = stabi.ChainEpoch(540 * EpochsInDay)
 
 // For V1_1 Stacked DRG sectors, the max is 5 years

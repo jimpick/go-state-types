@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"io"
 
-	address "github.com/filecoin-project/go-address"
-	abi "github.com/filecoin-project/go-state-types/abi"
-	proof "github.com/filecoin-project/go-state-types/proof"
+	address "github.com/jimpick/go-address"
+	abi "github.com/jimpick/go-state-types/abi"
+	proof "github.com/jimpick/go-state-types/proof"
 	cid "github.com/ipfs/go-cid"
 	cbg "github.com/whyrusleeping/cbor-gen"
 	xerrors "golang.org/x/xerrors"

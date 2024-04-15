@@ -1,7 +1,7 @@
 package builtin
 
 import (
-	"github.com/filecoin-project/go-state-types/big"
+	"github.com/jimpick/go-state-types/big"
 )
 
 ///// Code shared by multiple built-in actors. /////
