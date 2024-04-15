@@ -1,11 +1,11 @@
 package miner
 
 import (
-	"github.com/filecoin-project/go-address"
 	"github.com/filecoin-project/go-bitfield"
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/builtin"
-	"github.com/filecoin-project/go-state-types/builtin/v11/power"
+	"github.com/jimpick/go-address"
+	"github.com/jimpick/go-state-types/abi"
+	"github.com/jimpick/go-state-types/builtin"
+	"github.com/jimpick/go-state-types/builtin/v11/power"
 )
 
 var Methods = map[abi.MethodNum]builtin.MethodMeta{

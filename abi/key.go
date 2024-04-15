@@ -7,7 +7,7 @@ import (
 
 	"github.com/ipfs/go-cid"
 
-	"github.com/filecoin-project/go-address"
+	"github.com/jimpick/go-address"
 )
 
 // Keyer defines an interface required to put values in mapping.

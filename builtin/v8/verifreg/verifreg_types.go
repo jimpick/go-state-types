@@ -1,8 +1,8 @@
 package verifreg
 
 import (
-	addr "github.com/filecoin-project/go-address"
-	"github.com/filecoin-project/go-state-types/abi"
+	addr "github.com/jimpick/go-address"
+	"github.com/jimpick/go-state-types/abi"
 )
 
 type AddVerifierParams struct {

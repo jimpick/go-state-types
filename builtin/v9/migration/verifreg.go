@@ -6,16 +6,16 @@ import (
 	"github.com/ipfs/go-cid"
 	"golang.org/x/xerrors"
 
-	"github.com/filecoin-project/go-address"
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/builtin"
-	init8 "github.com/filecoin-project/go-state-types/builtin/v8/init"
-	market8 "github.com/filecoin-project/go-state-types/builtin/v8/market"
-	adt8 "github.com/filecoin-project/go-state-types/builtin/v8/util/adt"
-	verifreg8 "github.com/filecoin-project/go-state-types/builtin/v8/verifreg"
-	market9 "github.com/filecoin-project/go-state-types/builtin/v9/market"
-	adt9 "github.com/filecoin-project/go-state-types/builtin/v9/util/adt"
-	verifreg9 "github.com/filecoin-project/go-state-types/builtin/v9/verifreg"
+	"github.com/jimpick/go-address"
+	"github.com/jimpick/go-state-types/abi"
+	"github.com/jimpick/go-state-types/builtin"
+	init8 "github.com/jimpick/go-state-types/builtin/v8/init"
+	market8 "github.com/jimpick/go-state-types/builtin/v8/market"
+	adt8 "github.com/jimpick/go-state-types/builtin/v8/util/adt"
+	verifreg8 "github.com/jimpick/go-state-types/builtin/v8/verifreg"
+	market9 "github.com/jimpick/go-state-types/builtin/v9/market"
+	adt9 "github.com/jimpick/go-state-types/builtin/v9/util/adt"
+	verifreg9 "github.com/jimpick/go-state-types/builtin/v9/verifreg"
 )
 
 type DealAllocationTuple struct {

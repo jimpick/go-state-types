@@ -7,8 +7,8 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/filecoin-project/go-state-types/big"
-	"github.com/filecoin-project/go-state-types/network"
+	"github.com/jimpick/go-state-types/big"
+	"github.com/jimpick/go-state-types/network"
 )
 
 // SectorNumber is a numeric identifier for a sector. It is usually relative to a miner.

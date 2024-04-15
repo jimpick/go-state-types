@@ -11,7 +11,7 @@ import (
 	cbg "github.com/whyrusleeping/cbor-gen"
 	xerrors "golang.org/x/xerrors"
 
-	address "github.com/filecoin-project/go-address"
+	address "github.com/jimpick/go-address"
 )
 
 var _ = xerrors.Errorf

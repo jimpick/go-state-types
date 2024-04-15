@@ -1,6 +1,6 @@
 # Filecoin state types
-[![CircleCI](https://circleci.com/gh/filecoin-project/go-state-types.svg?style=svg)](https://circleci.com/gh/filecoin-project/go-state-types)
-[![codecov](https://codecov.io/gh/filecoin-project/go-state-types/branch/master/graph/badge.svg)](https://codecov.io/gh/filecoin-project/go-state-types)
+[![CircleCI](https://circleci.com/gh/jimpick/go-state-types.svg?style=svg)](https://circleci.com/gh/jimpick/go-state-types)
+[![codecov](https://codecov.io/gh/jimpick/go-state-types/branch/master/graph/badge.svg)](https://codecov.io/gh/jimpick/go-state-types)
 
 This repository contains primitive and low level types used in the Filecoin blockchain state representation.
 

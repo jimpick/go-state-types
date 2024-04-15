@@ -1,7 +1,7 @@
 package account
 
 import (
-	addr "github.com/filecoin-project/go-address"
+	addr "github.com/jimpick/go-address"
 )
 
 type State struct {

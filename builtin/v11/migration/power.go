@@ -7,15 +7,15 @@ import (
 	cbor "github.com/ipfs/go-ipld-cbor"
 	"golang.org/x/xerrors"
 
-	"github.com/filecoin-project/go-address"
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/builtin"
-	power10 "github.com/filecoin-project/go-state-types/builtin/v10/power"
-	adt10 "github.com/filecoin-project/go-state-types/builtin/v10/util/adt"
-	power11 "github.com/filecoin-project/go-state-types/builtin/v11/power"
-	adt11 "github.com/filecoin-project/go-state-types/builtin/v11/util/adt"
-	"github.com/filecoin-project/go-state-types/builtin/v11/util/smoothing"
-	"github.com/filecoin-project/go-state-types/migration"
+	"github.com/jimpick/go-address"
+	"github.com/jimpick/go-state-types/abi"
+	"github.com/jimpick/go-state-types/builtin"
+	power10 "github.com/jimpick/go-state-types/builtin/v10/power"
+	adt10 "github.com/jimpick/go-state-types/builtin/v10/util/adt"
+	power11 "github.com/jimpick/go-state-types/builtin/v11/power"
+	adt11 "github.com/jimpick/go-state-types/builtin/v11/util/adt"
+	"github.com/jimpick/go-state-types/builtin/v11/util/smoothing"
+	"github.com/jimpick/go-state-types/migration"
 )
 
 // The powerMigrator performs the following migrations:

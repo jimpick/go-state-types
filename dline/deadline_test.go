@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/dline"
+	"github.com/jimpick/go-state-types/abi"
+	"github.com/jimpick/go-state-types/dline"
 )
 
 func TestProvingPeriodDeadlines(t *testing.T) {

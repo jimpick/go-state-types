@@ -3,7 +3,7 @@ package actors
 import (
 	"fmt"
 
-	"github.com/filecoin-project/go-state-types/network"
+	"github.com/jimpick/go-state-types/network"
 )
 
 type Version int

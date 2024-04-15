@@ -4,9 +4,9 @@ import (
 	"github.com/ipfs/go-cid"
 	mh "github.com/multiformats/go-multihash"
 
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/big"
-	"github.com/filecoin-project/go-state-types/builtin"
+	"github.com/jimpick/go-state-types/abi"
+	"github.com/jimpick/go-state-types/big"
+	"github.com/jimpick/go-state-types/builtin"
 )
 
 // The period over which a miner's active sectors are expected to be proven via WindowPoSt.

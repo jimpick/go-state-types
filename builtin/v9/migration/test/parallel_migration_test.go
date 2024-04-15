@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/builtin/v9/migration"
-	"github.com/filecoin-project/go-state-types/builtin/v9/util/adt"
+	"github.com/jimpick/go-state-types/abi"
+	"github.com/jimpick/go-state-types/builtin/v9/migration"
+	"github.com/jimpick/go-state-types/builtin/v9/util/adt"
 )
 
 func TestParallelMigrationCalls(t *testing.T) {

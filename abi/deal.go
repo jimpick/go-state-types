@@ -1,6 +1,6 @@
 package abi
 
-import "github.com/filecoin-project/go-state-types/big"
+import "github.com/jimpick/go-state-types/big"
 
 type DealID uint64
 

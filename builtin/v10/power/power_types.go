@@ -3,9 +3,9 @@ package power
 import (
 	cbg "github.com/whyrusleeping/cbor-gen"
 
-	addr "github.com/filecoin-project/go-address"
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/builtin/v10/util/smoothing"
+	addr "github.com/jimpick/go-address"
+	"github.com/jimpick/go-state-types/abi"
+	"github.com/jimpick/go-state-types/builtin/v10/util/smoothing"
 )
 
 // Storage miner actor constructor params are defined here so the power actor can send them to the init actor

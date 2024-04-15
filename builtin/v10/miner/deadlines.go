@@ -5,10 +5,10 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/builtin"
-	"github.com/filecoin-project/go-state-types/builtin/v10/util/adt"
-	"github.com/filecoin-project/go-state-types/dline"
+	"github.com/jimpick/go-state-types/abi"
+	"github.com/jimpick/go-state-types/builtin"
+	"github.com/jimpick/go-state-types/builtin/v10/util/adt"
+	"github.com/jimpick/go-state-types/dline"
 )
 
 // Returns deadline-related calculations for a deadline in some proving period and the current epoch.

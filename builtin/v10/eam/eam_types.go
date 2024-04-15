@@ -1,7 +1,7 @@
 package eam
 
 import (
-	"github.com/filecoin-project/go-address"
+	"github.com/jimpick/go-address"
 )
 
 type CreateParams struct {

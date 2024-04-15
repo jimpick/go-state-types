@@ -8,8 +8,8 @@ import (
 	"github.com/ipfs/go-cid"
 	cbg "github.com/whyrusleeping/cbor-gen"
 
-	actorstypes "github.com/filecoin-project/go-state-types/actors"
-	"github.com/filecoin-project/go-state-types/builtin/v8/util/adt"
+	actorstypes "github.com/jimpick/go-state-types/actors"
+	"github.com/jimpick/go-state-types/builtin/v8/util/adt"
 )
 
 const (

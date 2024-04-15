@@ -10,8 +10,8 @@ import (
 	"github.com/multiformats/go-multibase"
 	"golang.org/x/xerrors"
 
-	"github.com/filecoin-project/go-address"
-	"github.com/filecoin-project/go-state-types/rt"
+	"github.com/jimpick/go-address"
+	"github.com/jimpick/go-state-types/rt"
 )
 
 type MemMigrationCache struct {

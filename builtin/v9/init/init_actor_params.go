@@ -3,7 +3,7 @@ package init
 import (
 	"github.com/ipfs/go-cid"
 
-	addr "github.com/filecoin-project/go-address"
+	addr "github.com/jimpick/go-address"
 )
 
 type ConstructorParams struct {

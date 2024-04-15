@@ -8,7 +8,7 @@ import (
 	"golang.org/x/xerrors"
 
 	amt "github.com/filecoin-project/go-amt-ipld/v4"
-	"github.com/filecoin-project/go-state-types/cbor"
+	"github.com/jimpick/go-state-types/cbor"
 )
 
 var DefaultAmtOptions = []amt.Option{}

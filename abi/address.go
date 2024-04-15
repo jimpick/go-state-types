@@ -1,8 +1,8 @@
 package abi
 
 import (
-	"github.com/filecoin-project/go-address"
-	"github.com/filecoin-project/go-state-types/network"
+	"github.com/jimpick/go-address"
+	"github.com/jimpick/go-state-types/network"
 )
 
 // AddressValidForNetworkVersion returns true if the address is supported by the given network

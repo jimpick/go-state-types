@@ -11,8 +11,8 @@ import (
 	cbg "github.com/whyrusleeping/cbor-gen"
 	xerrors "golang.org/x/xerrors"
 
-	abi "github.com/filecoin-project/go-state-types/abi"
-	crypto "github.com/filecoin-project/go-state-types/crypto"
+	abi "github.com/jimpick/go-state-types/abi"
+	crypto "github.com/jimpick/go-state-types/crypto"
 )
 
 var _ = xerrors.Errorf

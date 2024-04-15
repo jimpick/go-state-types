@@ -11,12 +11,12 @@ import (
 	"github.com/ipld/go-ipld-prime/node/bindnode"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/filecoin-project/go-address"
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/big"
-	"github.com/filecoin-project/go-state-types/builtin/v8/paych"
-	"github.com/filecoin-project/go-state-types/crypto"
-	. "github.com/filecoin-project/go-state-types/ipld"
+	"github.com/jimpick/go-address"
+	"github.com/jimpick/go-state-types/abi"
+	"github.com/jimpick/go-state-types/big"
+	"github.com/jimpick/go-state-types/builtin/v8/paych"
+	"github.com/jimpick/go-state-types/crypto"
+	. "github.com/jimpick/go-state-types/ipld"
 )
 
 var ipldSchema string = `

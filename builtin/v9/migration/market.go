@@ -7,13 +7,13 @@ import (
 	typegen "github.com/whyrusleeping/cbor-gen"
 	"golang.org/x/xerrors"
 
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/builtin"
-	market8 "github.com/filecoin-project/go-state-types/builtin/v8/market"
-	adt8 "github.com/filecoin-project/go-state-types/builtin/v8/util/adt"
-	market9 "github.com/filecoin-project/go-state-types/builtin/v9/market"
-	adt9 "github.com/filecoin-project/go-state-types/builtin/v9/util/adt"
-	"github.com/filecoin-project/go-state-types/builtin/v9/verifreg"
+	"github.com/jimpick/go-state-types/abi"
+	"github.com/jimpick/go-state-types/builtin"
+	market8 "github.com/jimpick/go-state-types/builtin/v8/market"
+	adt8 "github.com/jimpick/go-state-types/builtin/v8/util/adt"
+	market9 "github.com/jimpick/go-state-types/builtin/v9/market"
+	adt9 "github.com/jimpick/go-state-types/builtin/v9/util/adt"
+	"github.com/jimpick/go-state-types/builtin/v9/verifreg"
 )
 
 func migrateMarket(ctx context.Context, adtStore adt8.Store, dealAllocationTuples []DealAllocationTuple, marketStateV8 market8.State, emptyMapCid cid.Cid) (cid.Cid, error) {

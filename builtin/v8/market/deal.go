@@ -12,10 +12,10 @@ import (
 	cbg "github.com/whyrusleeping/cbor-gen"
 	"golang.org/x/xerrors"
 
-	addr "github.com/filecoin-project/go-address"
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/big"
-	acrypto "github.com/filecoin-project/go-state-types/crypto"
+	addr "github.com/jimpick/go-address"
+	"github.com/jimpick/go-state-types/abi"
+	"github.com/jimpick/go-state-types/big"
+	acrypto "github.com/jimpick/go-state-types/crypto"
 )
 
 var PieceCIDPrefix = cid.Prefix{

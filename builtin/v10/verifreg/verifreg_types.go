@@ -4,11 +4,11 @@ import (
 	"github.com/ipfs/go-cid"
 	"github.com/multiformats/go-varint"
 
-	addr "github.com/filecoin-project/go-address"
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/big"
-	"github.com/filecoin-project/go-state-types/crypto"
-	"github.com/filecoin-project/go-state-types/exitcode"
+	addr "github.com/jimpick/go-address"
+	"github.com/jimpick/go-state-types/abi"
+	"github.com/jimpick/go-state-types/big"
+	"github.com/jimpick/go-state-types/crypto"
+	"github.com/jimpick/go-state-types/exitcode"
 )
 
 // RemoveDataCapProposal A verifier who wants to send/agree to a RemoveDataCapRequest should sign a RemoveDataCapProposal and send the signed proposal to the root key holder.

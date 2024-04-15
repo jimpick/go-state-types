@@ -3,7 +3,7 @@ package main
 import (
 	gen "github.com/whyrusleeping/cbor-gen"
 
-	"github.com/filecoin-project/go-state-types/proof"
+	"github.com/jimpick/go-state-types/proof"
 )
 
 func main() {

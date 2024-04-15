@@ -1,8 +1,8 @@
 package account
 
 import (
-	"github.com/filecoin-project/go-address"
-	"github.com/filecoin-project/go-state-types/builtin"
+	"github.com/jimpick/go-address"
+	"github.com/jimpick/go-state-types/builtin"
 )
 
 type StateSummary struct {

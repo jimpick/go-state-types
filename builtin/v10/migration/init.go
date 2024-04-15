@@ -8,13 +8,13 @@ import (
 	cbg "github.com/whyrusleeping/cbor-gen"
 	"golang.org/x/xerrors"
 
-	addr "github.com/filecoin-project/go-address"
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/builtin"
-	init10 "github.com/filecoin-project/go-state-types/builtin/v10/init"
-	init9 "github.com/filecoin-project/go-state-types/builtin/v9/init"
-	adt9 "github.com/filecoin-project/go-state-types/builtin/v9/util/adt"
-	"github.com/filecoin-project/go-state-types/migration"
+	addr "github.com/jimpick/go-address"
+	"github.com/jimpick/go-state-types/abi"
+	"github.com/jimpick/go-state-types/builtin"
+	init10 "github.com/jimpick/go-state-types/builtin/v10/init"
+	init9 "github.com/jimpick/go-state-types/builtin/v9/init"
+	adt9 "github.com/jimpick/go-state-types/builtin/v9/util/adt"
+	"github.com/jimpick/go-state-types/migration"
 )
 
 // Init Actor migrator

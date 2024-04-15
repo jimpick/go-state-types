@@ -3,19 +3,19 @@ package main
 import (
 	gen "github.com/whyrusleeping/cbor-gen"
 
-	"github.com/filecoin-project/go-state-types/builtin/v9/account"
-	"github.com/filecoin-project/go-state-types/builtin/v9/cron"
-	"github.com/filecoin-project/go-state-types/builtin/v9/datacap"
-	init_ "github.com/filecoin-project/go-state-types/builtin/v9/init"
-	"github.com/filecoin-project/go-state-types/builtin/v9/market"
-	"github.com/filecoin-project/go-state-types/builtin/v9/miner"
-	"github.com/filecoin-project/go-state-types/builtin/v9/multisig"
-	"github.com/filecoin-project/go-state-types/builtin/v9/paych"
-	"github.com/filecoin-project/go-state-types/builtin/v9/power"
-	"github.com/filecoin-project/go-state-types/builtin/v9/reward"
-	"github.com/filecoin-project/go-state-types/builtin/v9/system"
-	"github.com/filecoin-project/go-state-types/builtin/v9/util/smoothing"
-	"github.com/filecoin-project/go-state-types/builtin/v9/verifreg"
+	"github.com/jimpick/go-state-types/builtin/v9/account"
+	"github.com/jimpick/go-state-types/builtin/v9/cron"
+	"github.com/jimpick/go-state-types/builtin/v9/datacap"
+	init_ "github.com/jimpick/go-state-types/builtin/v9/init"
+	"github.com/jimpick/go-state-types/builtin/v9/market"
+	"github.com/jimpick/go-state-types/builtin/v9/miner"
+	"github.com/jimpick/go-state-types/builtin/v9/multisig"
+	"github.com/jimpick/go-state-types/builtin/v9/paych"
+	"github.com/jimpick/go-state-types/builtin/v9/power"
+	"github.com/jimpick/go-state-types/builtin/v9/reward"
+	"github.com/jimpick/go-state-types/builtin/v9/system"
+	"github.com/jimpick/go-state-types/builtin/v9/util/smoothing"
+	"github.com/jimpick/go-state-types/builtin/v9/verifreg"
 )
 
 func main() {

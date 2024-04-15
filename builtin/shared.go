@@ -7,7 +7,7 @@ import (
 	cbor "github.com/ipfs/go-ipld-cbor"
 	"golang.org/x/xerrors"
 
-	"github.com/filecoin-project/go-state-types/big"
+	"github.com/jimpick/go-state-types/big"
 )
 
 ///// Code shared by multiple built-in actors. /////

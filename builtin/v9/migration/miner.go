@@ -7,17 +7,17 @@ import (
 	cbor "github.com/ipfs/go-ipld-cbor"
 	"golang.org/x/xerrors"
 
-	"github.com/filecoin-project/go-address"
 	"github.com/filecoin-project/go-amt-ipld/v4"
 	commp "github.com/filecoin-project/go-commp-utils/nonffi"
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/builtin"
-	"github.com/filecoin-project/go-state-types/builtin/v8/market"
-	miner8 "github.com/filecoin-project/go-state-types/builtin/v8/miner"
-	adt8 "github.com/filecoin-project/go-state-types/builtin/v8/util/adt"
-	miner9 "github.com/filecoin-project/go-state-types/builtin/v9/miner"
-	adt9 "github.com/filecoin-project/go-state-types/builtin/v9/util/adt"
-	"github.com/filecoin-project/go-state-types/exitcode"
+	"github.com/jimpick/go-address"
+	"github.com/jimpick/go-state-types/abi"
+	"github.com/jimpick/go-state-types/builtin"
+	"github.com/jimpick/go-state-types/builtin/v8/market"
+	miner8 "github.com/jimpick/go-state-types/builtin/v8/miner"
+	adt8 "github.com/jimpick/go-state-types/builtin/v8/util/adt"
+	miner9 "github.com/jimpick/go-state-types/builtin/v9/miner"
+	adt9 "github.com/jimpick/go-state-types/builtin/v9/util/adt"
+	"github.com/jimpick/go-state-types/exitcode"
 )
 
 // The minerMigrator performs the following migrations:

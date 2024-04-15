@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/filecoin-project/go-address"
-	"github.com/filecoin-project/go-state-types/big"
-	"github.com/filecoin-project/go-state-types/builtin/v8/market"
+	"github.com/jimpick/go-address"
+	"github.com/jimpick/go-state-types/big"
+	"github.com/jimpick/go-state-types/builtin/v8/market"
 )
 
 func TestDealLabel(t *testing.T) {
